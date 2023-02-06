@@ -23,8 +23,8 @@ export const Hero: FC = () => {
         <p className="font-light">
           We all get hung up on those pesky <em>math rocks</em>, let{' '}
           <strong className="text-cyan-400 font-serif">Abacus 5e</strong> do the work for you and keep you and your game
-          moving. We have put together several calculators based on
-          <strong className="text-cyan-400 font-serif">"The Spread Sheet of Chaos!"</strong> and a few that make your
+          moving. We have put together several calculators based on '
+          <strong className="text-cyan-400 font-serif">The Spread Sheet of Chaos!</strong>' and a few that make your
           quality of life as a player or DM a smooth adventure!
         </p>
       </div>
