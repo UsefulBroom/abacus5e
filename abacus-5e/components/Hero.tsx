@@ -4,13 +4,14 @@ import LogoHero from '@app/public/images/abacus-sm.png';
 
 export const Hero: FC = () => {
   return (
-    <div className="grid grid-cols-6 gap-2">
+    <div className="py-3 grid grid-cols-6 gap-2 shadow-md shadow-cyan-700">
       <div className="flex flex-col text-cyan-400 font-serif mt-5 col-start-2 col-end-3 justify-center items-center">
         <div className="flex flex-col items-center">
           <Image src={LogoHero} width={60} height={60} alt="Abacus 5e Logo" />
           <h2 className="pl-2 text-3xl">Abacus 5e</h2>
         </div>
         <div className="grid col-row-2 col-start-2">
+          {/* Get Started | Jump to login */}
           <button className="mt-3 px-1 text-sky-600 border-2 border-solid border-sky-600 rounded-xl hover:shadow-sm hover:shadow-cyan-700 hover:inset-3 hover:text-cyan-400 hover:bg-sky-800 hover:border-cyan-400">
             Get Started
           </button>
