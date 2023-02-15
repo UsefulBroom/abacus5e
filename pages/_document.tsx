@@ -5,7 +5,7 @@ const Document: FC<Props> = () => {
   return (
     <Html>
       <Head />
-      <body className="min-h-screen bg-white">
+      <body className="min-h-screen">
         <Main />
         <NextScript />
       </body>
