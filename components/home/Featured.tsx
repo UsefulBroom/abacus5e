@@ -6,8 +6,8 @@ export const Featured: FC = () => {
   return (
     <div className="mx-5 mt-3 font-serif">
       <div className="flex flex-col items-center justify-center">
-        <h2 className="text-3xl text-cyan-500">Features</h2>
-        <p>Here is what we have to offer.</p>
+        <h2 className="text-3xl text-cyan-500">Players</h2>
+        <p>Here is what is free.</p>
       </div>
       <div className="p-2 mt-3">
         <ul className="flex flex-wrap justify-evenly">

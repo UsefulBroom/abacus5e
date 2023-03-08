@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import { NextPage } from 'next';
 import { NextSeo as Meta } from 'next-seo';
 import { Hero } from '@app/components/dice/Hero';
+import { RollCard } from '@app/components/dice/RollCard';
 import { Navbar } from '@app/components/Navbar';
 
 const Dice: NextPage = () => (
@@ -11,9 +12,7 @@ const Dice: NextPage = () => (
       <Navbar />
       <Hero />
       <div>
-        <h2>Roll Generator</h2>
-        <p>Lets let the Gods decide your fate.</p>
-        <p>Tymora be with you.</p>
+        <RollCard />
       </div>
     </div>
   </Fragment>
