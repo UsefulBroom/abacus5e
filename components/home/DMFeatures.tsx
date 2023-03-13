@@ -12,7 +12,7 @@ export const DMFeatures: FC = () => {
           <p>Take your game to the next level.</p>
         </div>
         <div className="p-2 mt-3">
-          <ul className="flex flex-col ">
+          <ul className="flex flex-col">
             <div className="flex flex-row flex-wrap justify-evenly">
               <li className="w-1/2">
                 <Link href="#">
@@ -36,19 +36,19 @@ export const DMFeatures: FC = () => {
                 </div>
               </li>
               <li className="w-1/2">
-                <div className="flex flex-col items-center justify-center p-2 m-2 border-transparent w-60 hover:border-4 hover:rounded-md hover:border-cyan-700 hover:shadow-inner hover:shadow-cyan-800">
+                <div className="flex flex-col items-center justify-center p-2 m-2 border-transparent hover:border-4 hover:rounded-md hover:border-cyan-700 hover:shadow-inner hover:shadow-cyan-800">
                   <GiCauldron className="text-5xl text-cyan-300" />
                   <h3 className="text-xl font-semibold text-cyan-500">Potion Crafting</h3>
-                  <p className="w-48 mt-2 text-lg font-light text-center">
+                  <p className="mt-2 text-lg font-light text-center">
                     Let your players feel creative with this tool built to help you craft potions on the fly.
                   </p>
                 </div>
               </li>
               <li className="w-1/2">
-                <div className="flex flex-col items-center justify-center p-2 m-2 border-transparent w-60 hover:border-4 hover:rounded-md hover:border-cyan-700">
+                <div className="flex flex-col items-center justify-center p-2 m-2 border-transparent hover:border-4 hover:rounded-md hover:border-cyan-700">
                   <GiShop className="text-5xl text-cyan-300" />
                   <h3 className="text-xl font-semibold text-cyan-500">Shop Generator</h3>
-                  <p className="w-48 mt-2 text-lg font-light text-center">
+                  <p className="mt-2 text-lg font-light text-center">
                     Give your players somewhere to spend coin without all the prep work.
                   </p>
                 </div>

@@ -5,13 +5,11 @@ import Image from 'next/image';
 import { DMFeatures } from '@app/components/home/DMFeatures';
 import { Featured } from '@app/components/home/Featured';
 import { Hero } from '@app/components/home/Hero';
-import { Navbar } from '@app/components/Navbar';
 
 const IndexPage: NextPage = () => (
   <Fragment>
     <Meta title="Abacus 5e" />
-    <div className="h-screen">
-      <Navbar />
+    <div className="h-auto bg-black">
       <Hero />
       <DMFeatures />
       <Featured />
